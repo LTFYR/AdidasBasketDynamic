@@ -1,0 +1,646 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.heading{
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    z-index: 100;
+    box-shadow: 2px 1px 2px black;
+}
+.header{
+    padding-top: 20px;
+}
+.heading ul{
+    display: flex;
+}
+.heading ul li{
+    list-style: none;
+}
+.heading ul li a{
+    text-decoration: none;
+    color: black;
+    margin-left: 5px;
+}
+.heading .logo img{
+    margin-left: 60px;
+    width: 88px;
+    height: 60px;
+    padding-bottom: 20px;
+}
+.heading .user-tools{
+    display: flex;
+}
+.heading .input-src a{
+    color: black;
+}
+.heading .input-src{
+    overflow: hidden;
+}
+.heading .input-src span{
+    margin-left: 10px;
+}
+.heading .user-tools .toolslist a{
+    color: black;
+}
+.heading .user-tools .toolslist i{
+    margin-right: 30px;
+}
+.heading .header{
+    
+}
+.nav-links ul {
+	padding: 0;
+    margin: 0;
+	list-style: none;
+	position: relative;
+	}
+	
+.nav-links ul li {
+	display:inline-block;
+	background-color: white;
+    /* width: 100%; */
+	}
+
+.nav-links a:hover { 
+	border-bottom: 3px solid black;
+}
+.nav-links ul ul {
+	display: none;
+	position: absolute; 
+	top: 40px;
+}
+.nav-links ul li:hover > ul {
+	display:block;
+    transition: 150ms all;
+}
+.nav-links a {
+	display:block;
+	padding:0 10px;	
+	color:#FFF;
+	font-size:18px;
+	line-height:40px;
+	text-decoration:none;
+}
+	
+.nav-links ul ul li {
+	width:200px;
+	display:list-item;
+    text-align: center;
+    border-bottom: 1px solid black;
+	position: relative;
+    color: black;
+}
+.nav-links ul ul ul li {
+	position: relative;
+    text-align: center;
+	top:-40px; 
+	left:200px;
+}
+.user-tools{
+    margin-top: 10px;
+    display: flex;
+    padding-left: 30px;
+    /* margin-left: 5px; */
+}
+.input-src span{
+    padding-left: 30px;
+}
+.user-tools .input-src i{
+    padding-left: 30px;
+    margin-left: 10px;
+}
+section  .bgside{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../images/ss22-pride-launch-hp-masthead2-d_tcm221-883710.jpeg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.bgside .text-area h2{
+    color: white;
+    position: relative;
+    top: 300px;
+    font-size: 40px;
+    font-weight: 700;
+    left: 110px;
+}
+.bgside p{
+    width: 20%;
+    color: white;
+    position: relative;
+    font-size: 18px;
+    top: 300px;
+    font-weight: normal;
+    left: 110px;
+}
+.bgside .btn button{
+    position: relative;
+    top: 300px;
+    font-weight: 700;
+    height: 50px;
+    width: 150px;
+    left: 98px;
+}
+.products{
+    width: 100%;
+}
+.products .p1{
+    cursor: pointer;
+    margin-bottom: 90px;
+    background-color: #ebeff1;
+    width: 22%;
+}
+.p1 img{
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+}
+.p1 .desc h5{
+    font-size: 15px;
+    text-decoration:underline;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.p1 .desc h5:hover{
+    background-color: black;
+    color: white;
+}
+.p1 a{
+    text-decoration: none;
+    color: black;
+}
+.products .p2{
+    cursor: pointer;
+    margin-left: 10px;
+    margin-bottom: 90px;
+    background-color: #ebeff1;
+}
+.p2 img{
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+}
+.p2 .desc h5{
+    font-size: 15px;
+    text-decoration:underline;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.p2 .desc h5:hover{
+    background-color: black;
+    color: white;
+}
+.p2 a{
+    text-decoration: none;
+    color: black;
+}
+.products .p3{
+    cursor: pointer;
+    margin-left: 10px;
+    margin-bottom: 90px;
+    background-color: #ebeff1;
+}
+.p3 img{
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+}
+.p3 .desc h5{
+    font-size: 15px;
+    text-decoration:underline;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.p3 .desc h5:hover{
+    background-color: black;
+    color: white;
+}
+.p3 a{
+    text-decoration: none;
+    color: black;
+}
+.products .p4{
+    cursor: pointer;
+    margin-left: 10px;
+    margin-bottom: 90px;
+    background-color: #ebeff1;
+}
+.p4 img{
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+}
+.p4 .desc h5{
+    font-size: 15px;
+    text-decoration:underline;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.p4 .desc h5:hover{
+    background-color: black;
+    color: white;
+}
+.p4 a{
+    text-decoration: none;
+    color: black;
+}
+.hamburger{
+    width: 22px;
+    height: 16px;
+    cursor: pointer;
+    display: none;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    margin: 20px;
+}
+.hamburger span{
+    width: 100%;
+  height: 2px;
+  border-radius: 99px;
+  background: rgb(243, 237, 237);
+  transition: 0.3s ease;
+  transform-origin: left;
+}
+.shop .img-shop img{
+    width: 300px;
+    height: 400px;
+}
+.shop a{
+    text-decoration: none;
+    color: black;
+}
+.shop .btn-shop button{
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: white;
+    font-weight: 700;
+}
+.w{
+    width: 100%;
+}
+.shop .btn-shop button:hover{
+    background-color: black;
+    color: white;
+}
+.shop{
+    margin-bottom: 100px;
+}
+.intro-header-container h3:hover{
+    border-bottom: 2px solid white;
+}
+.bgside .btn button:hover{
+    box-shadow: 2px 5px 2px white;
+}
+.owl-nav{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    font-size: 60px;
+    color: black;
+}
+.owl-nav .owl-prev{
+    position: relative;
+    left: -50px;
+    display: block;
+}
+.owl-nav .owl-next{
+    position: relative;
+    right: -1300px;
+    bottom: 90px;
+    display: block;
+}
+.owl-nav .owl-next:hover{
+    font-size: 80px !important;
+    background-color: black !important;
+    color: white !important;
+}
+.owl-nav .owl-prev:hover{
+    font-size: 80px !important;
+    background-color: black !important;
+    color: white !important;
+}
+.top-picks{
+    margin-bottom: 150px;
+}
+.top-picks .img-shoe img{
+}
+.top-picks .img-shoe p{
+    position: relative;
+    bottom: 30px;
+    left: 10px;
+    width: 40px;
+    text-align: center;
+    background-color: white;
+}
+.top-picks .shoe{
+    cursor: pointer;
+}
+.top-picks .shoe:hover{
+    border: 1px solid black;
+}
+.top-picks .shoe i{
+position: relative;
+bottom: 350px;
+left: 290px;
+}
+.top-picks h3{
+    letter-spacing: 2px;
+    text-align: center;
+    font-weight: bold;
+}
+.women-clothing  h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+.women-clothing ul li{
+    list-style: none;
+}
+.women-clothing ul li a{
+    text-decoration: none;
+    color: black;
+}
+.women-clothing p a{
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid black;
+    font-weight: bolder;
+}
+.women-clothing p{
+    text-align: start;
+    letter-spacing: 2px;
+}
+.women-clothing .products-wc{
+    margin-left: 20px;
+}
+.women-clothing .products-wc:hover a{
+    background-color: black;
+    color: white;
+}
+.women-clothing{
+    margin-bottom: 60px;
+}
+.joinus{
+    width: 100%;
+    height: 140px;
+    background-color: yellow;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 40px;
+}
+.joinus h2{
+    width: 88%;
+    font-weight: 700;
+    font-size: 30px;
+}
+.joinus button{
+    background-color: black;
+    margin-bottom: 16px;
+    color: white;
+    font-weight: bold;
+    width: 240px;
+    height: 46px;
+    box-shadow: 4px 2px 3px black; 
+}
+html,body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+footer .products {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+  }
+.lists-about .products li{
+    list-style: none;
+}
+.lists-about .products li a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+.lists-about .products ul h5{
+    font-weight: bold;
+}
+.lists-about{
+    margin-bottom: 60px;
+}
+.privacy{
+    height: 120px;
+    line-height: 40px;
+    background-color: rgb(67, 66, 66);
+    width: 100%;
+}
+.privacy a{
+    text-decoration: none;
+    color: white;
+}
+.privacy p{
+    margin-left: 50px;
+    color: white;
+}
+.privacy ul{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.privacy li{
+    margin-right: 50px;
+    list-style: none;
+}
+.btn-click button{
+    display: none;
+}
+.nav-links li.active{
+   font-weight: bold;
+}
+.products h3{
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+}
+#success-alert{
+    text-align: center;
+}
+.text-shoe input{
+    
+}
+.shop-badge{
+    position: absolute;
+    top:30px;
+    right:200px;
+    background-color: red;
+    width: 8px;
+    height: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (max-width: 700px) and (min-width: 300px) {
+    .hamburger{
+        display: flex;
+        position: absolute;
+        bottom: 360px;
+        right: 22px;
+        /* bottom: 640px;
+        left: 350px; */
+    }
+    .heading{
+        position: static !important;
+        background-color: rgba(0, 0, 0, 0.618);
+    }
+    .nav-links{
+        display: none;
+        height: 100%;
+        width: 100%;
+        background-color: white;
+        z-index: 111;
+        transition: .6s ease-in-out;
+    }
+    .nav-links ul{
+        display: inline-block;
+        height: 80vh;
+        width: 100vw;
+    }
+    .nav-links ul li{
+        margin-top: 26px;
+        display: block;
+    }
+    .btn-click button{
+        
+        border: none;
+        background-color: white;
+    }
+    .user-tools{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 2px;
+        margin-bottom: 40px;
+        padding-left: 0;
+        margin-left: 0;
+        background-color: white;
+    }
+    .user-tools input{
+        display: none;
+    }
+    .user-tools .toolslist{
+        display: flex;
+    }
+    .bgside .text-area h2{
+        font-size: 24px;
+        left: 28px;
+    }
+    .bgside .text-area p{
+        width: 80%;
+        left: 28px;
+        font-size: 14px;
+    }
+    .bgside .btn button{
+        font-size: 10px;
+        width: 100px;
+        height: 30px;
+        left: 20px;
+    }
+    .btn-click button{
+        display: block;
+        margin-right: 20px;
+    }
+    .privacy{
+        height: 280px;
+        font-size: 10px;
+    }
+    .privacy ul{
+        display: block;
+        margin-left:  80px;
+    }
+    .privacy p{
+        text-align: center;
+        margin-right: 80px;
+    }
+    .joinus{
+        display: block;
+    }
+    .joinus h2{
+        padding-top: 20px;
+        font-size: 18px;
+        margin-left: 10px;
+        width: 100%;
+    }
+    .joinus button{
+        margin-left: 40px;
+    }
+    .bgside{
+        background-image: url(../images/orig-ss22-stansmith-alwayson-GZ4308-mh-large-m_tcm221-886391.jpg) !important;
+        background-position: center;
+        height: 200vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .top-picks{
+        border: 1px solid black;
+        margin-bottom: 60px;
+    }
+    .lists-about{
+        margin-left: 40px;
+    }
+    .women-clothing{
+        margin-left: 30px;
+    }
+    .products .p1{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .products .p2{
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 40px;
+    }
+    .products .p3{
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 40px;
+    }
+    .products .p4{
+        width: 100%;
+        margin-bottom: 40px;
+        margin-left: 0;
+    }
+    .heading .logo img{
+        width: 66px;
+        height: 50px;
+        padding-bottom: 14px;
+    }
+    .top-picks .shoe i{
+        position: relative;
+        bottom: 330px;
+        left: 270px;
+        }
+        .shop-badge{
+            position: absolute;
+            top:80px;
+            right:104px;
+            background-color: red;
+            width: 8px;
+            height: 14px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .shopping-cart{
+            margin-top: 4px;
+        }
+    
+}
